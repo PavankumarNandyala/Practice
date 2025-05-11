@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.output{
+    outline: none;
+    border: none;
+    width: 320px;
+    height: 80px;
+    font-size: 32px;
+    padding: 2px 10px;
+    background: #333333;
+    color: white;
+    text-align: right;
+}
+.keypad{
+    width: 320px;
+    padding: 2px;
+    font-size: 32px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.digit{
+    height: 60px;
+    width: 80px;
+    cursor: pointer;
+    background:grey;
+    color: white;
+    border-radius: 5px;
+}
+.operator{
+    height: 60px;
+    width: 74px;
+    cursor: pointer;
+    background: rgb(241, 163, 18);
+    border-radius: 5px;
+}
+.func-key{
+    height: 60px;
+    width: 80px;
+    cursor: pointer;
+    background:grey;
+    color: white;
+    border-radius: 5px;
+}
